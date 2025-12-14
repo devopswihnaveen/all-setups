@@ -16,5 +16,5 @@ EOF
 
 sudo apt update
 
-# Install Docker Enginer and related packages:
-sudo apt install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+# Install Docker Engine and related packages:
+sudo apt install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin docker-compose
