@@ -4,8 +4,8 @@ set -e
 echo "Updating system..."
 sudo apt update && sudo apt upgrade -y
 
-echo "Installing Java 11..."
-sudo apt install -y openjdk-11-jdk
+echo "Installing Java 17..."
+sudo apt install -y openjdk-17-jdk
 
 echo "Cleaning old Jenkins config..."
 sudo rm -f /etc/apt/sources.list.d/jenkins.list
